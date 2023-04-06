@@ -1,0 +1,134 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html,
+body {
+    font-family: 'Poppins', sans-serif;
+    height: 100%;
+    font-size: 16px;
+}
+
+.dtb{
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(60deg, #66afea, #4b6ea2, #906bd6, #9c37d7);
+    
+}
+
+.wrap {
+    width: 500px;
+    margin: auto;
+    padding: 70px 70px;    
+    border-radius: 20px;
+    box-shadow: 0 0 10px grey;
+    background-color: #fff;
+}
+.wrap h1{
+    font-size: 45px;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 30px;
+    color: #634bce;
+}
+.wrap p{
+    font-size: 16px;
+    color: gray;
+    margin: 20px 0 5px 5px; 
+}
+
+.wrap form input {
+    
+    width: 100%;
+    border: 2px solid transparent;
+    border-radius: 10px;    
+    border-image: linear-gradient(to right, gray, gray) 1;
+    transition: all 0.5s;
+}
+.wrap form input:focus{
+    outline-style: none;
+    border-image: linear-gradient(to right, #667eea, #764ba2, #6B8DD6, #8E37D7) 1;
+} 
+
+
+.buttons {
+    margin: auto;
+    text-align: center;
+    
+}
+
+.btn-hover {
+    width: 200px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+
+    border-radius: 50px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:focus {
+    outline: none;
+}
+
+
+.btn-hover.color-3 {
+    background-image: linear-gradient(to right, #667eea, #764ba2, #6B8DD6, #8E37D7);
+    box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);
+}
+.thongTinSV{
+    border: 2px solid #8966ea;
+    border-radius: 10px;
+    position: relative;
+    margin-top: 30px;
+}
+.thongTinSV h4{
+    position: absolute;
+    top: -15%;
+    left: 25%;
+    background-color: #fff;
+    text-align: center;
+    width: 50%;
+    font-weight: 600;
+    color: #574de2;
+}
+.thongTinSV-content{
+    padding: 0 10px 10px 10px;
+}
+.thongTinSV-dtb{
+    display: flex;
+    
+}
+.thongTinSV span{
+    margin: 20px 0 5px 5px; 
+    
+} 
+
+.thongTinSV-xepLoai{
+    display: flex;
+    
+}
+
+.wrap .sv-erro p{
+    color: red;
+}
